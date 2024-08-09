@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/estilo.css">
+    <title>HTML</title>
+</head>
+<body>
+    <section id="Contenido"></section>
+    <article class="Conceptos"></article>
+        <h3>Formularios HTML</h3>
+
+        <p class="parrafo-1"> formularios HTML son elementos fundamentales en el desarrollo web que
+            permiten a los usuarios enviar datos al servidor para su procesamiento. En este
+            informe, exploraremos en detalle cómo se estructuran y utilizan los formularios en
+            HTML, así como algunas prácticas recomendadas para su implementación.</p><br>
+            
+            <h4>Estructura Básica de un Formulario</h4>
+
+            <p class="parrafo2"> formulario HTML se define dentro de la etiqueta form y puede contener
+                varios tipos de elementos de entrada (input), áreas de texto (textarea),
+                botones (button), entre otros. Ejemplo:<br>
+                
+                <img src="img/Imagen1 git.jpg"><br>
+
+                • form: Define el inicio y fin del formulario. El atributo action especifica la
+                URL del script de servidor que procesará los datos del formulario. El
+                atributo method define cómo se enviarán los datos (post o get).<br> 
+    
+                • label: Etiqueta que describe el propósito del campo de entrada. El
+                atributo for se usa para asociar la etiqueta con el campo correspondiente
+                mediante el atributo id.<br>
+                 
+                • input: Elemento de entrada que puede tener diferentes tipos (text, email,
+                password, checkbox, radio, etc.). El atributo name es fundamental ya que
+                identifica el dato cuando se envía al servidor.<br>
+                
+                • textarea: Permite a los usuarios ingresar texto largo. Se especifican el
+                número de filas (rows) y columnas (cols) del área de texto <br>
+    
+                • button: Puede ser de tipo submit (envía el formulario) o reset (restablece
+                los valores a su estado inicial).</p>    
+            
+            <h4>Atributos Importantes en los Elementos de Formulario</h4>
+            
+            <p class="parrafo3">
+                type: Define el tipo de entrada (text, password, email, checkbox, radio,etc.).
+                • name: Identifica el nombre del campo cuando se envía al servidor.<br>
+                • id: Identificador único del campo, utilizado principalmente para asociar
+                etiquetas (label) con campos de entrada.<br>
+                • value: Valor predeterminado o actual del campo de entrada.<br>
+                • required: Atributo booleano que indica si el campo es obligatorio antes de
+                enviar el formulario.<br></p>
+    
+            <h4>Métodos HTTP y Seguridad</h4>
+    
+            <p class="parrafo4">
+                • method="post" vs method="get": POST envía datos al servidor de
+                manera que no son visibles en la URL, ideal para datos sensibles. GET
+                envía datos como parte de la URL, más adecuado para búsquedas o
+                accesos públicos. <br>
+    
+                • Validación de Datos: HTML5 proporciona validación del lado del cliente
+                (en el navegador) mediante atributos como required, type="email", pattern,
+                entre otros. Sin embargo, la validación del lado del servidor es crucial para
+                la seguridad y consistencia de los datos</p>
+            
+            <h4>Prácticas Recomendadas</h4>  
+            
+            <p class="parrafo5">
+                • Usar etiquetas label: Mejora la accesibilidad y usabilidad al permitir a
+                los usuarios hacer clic en la etiqueta para activar el campo de entrada.<br>
+                • Validación en el lado del cliente y del servidor: Combinar la validación
+                del lado del cliente con la validación del lado del servidor para garantizar la
+                integridad y seguridad de los datos.<br>
+                • Diseño Responsivo: Asegurarse de que los formularios se vean y
+                funcionen bien en diferentes dispositivos y tamaños de pantalla.<br>
+                • Seguridad: Proteger los formularios contra ataques comunes como
+                inyección SQL y XSS (Cross-Site Scripting) mediante técnicas como la
+                sanitización de datos y la validación estricta</p>
+            </article>
+        </section>
+</body>
+</html>
