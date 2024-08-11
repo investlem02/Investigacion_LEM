@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: -o-linear-gradient(rgb(37, 195, 181), rgb(190, 126, 197));
+    background: -o-linear-gradient(rgb(37, 195, 181), rgb(194, 126, 197));
 }
 
 .container {
