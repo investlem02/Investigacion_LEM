@@ -78,20 +78,4 @@ body {
     margin-top: -80px;
     transition-delay: 0.3s;
 }
-.footer__copy{
-    --padding-container: 30px 0;
-    text-align: center;
-    color: #fff;
-}
 
-.footer__copyright{
-    font-weight: 300;
-}
-
-.footer__icons{
-    margin-bottom: 10px;
-}
-
-.footer__img{
-    width: 30px;
-}
