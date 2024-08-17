@@ -11,7 +11,7 @@
 }
 
 body{
-    background: -moz-linear-gradient(#000, #001A49);
+    background-image: url(../img.menu/menu.jpg);
     color: #070403;
     font-family: Poppins;
     font-size: 15px;
