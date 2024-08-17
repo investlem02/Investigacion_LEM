@@ -66,7 +66,7 @@ body {
     margin-top: -40px;
     padding: 5px 25px;
     text-align:justify;
-    color: #e0d8d8;
+    color: #000;
     visibility: hidden;
     opacity: 0;
     transition: 0.3s ease-in-out;
